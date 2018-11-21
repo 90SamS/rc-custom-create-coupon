@@ -1,0 +1,63 @@
+.pum-open-overlay .pum-overlay, .pum-theme-default-theme{
+    background-color: rgba( 0, 0, 0, .6 );
+}
+.pum-open-overlay .pum-container.pum-responsive.pum-responsive-medium{
+    width: 400px;
+    border: 4px solid #b28090;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pum-open-overlay .pum-overlay .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close{
+    height: auto;
+    width: auto;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0 16px;
+    margin-right: 0;
+    background-color: #b28090;
+}
+.pum-open-overlay .pum-overlay .pum-title, .pum-theme-default-theme .pum-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #8c8c8c;
+}
+.popap-coupon{
+    margin: 25px auto 10px;
+    width: 180px;
+    display: block;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background-color: #b28090;
+    color: white;
+    cursor: pointer;
+}
+.popap-coupon:hover{
+    box-shadow: inset 0 0 0 100px rgba(0,0,0,.2);
+}
+.pum-open-overlay .pum-theme-10 .pum-content, .pum-theme-default-theme .pum-content{
+    text-align: center;
+}
+.pum-open-overlay .pum-container .pum-content>:last-child{
+    margin-bottom: 10px;
+}
+.pum-content p{
+    margin-bottom: 15px;
+    color: #8c8c8c;
+    font-size: 18px;
+}
+.pum-content strong{
+    margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #b28090;
+}
+.pum-content h2{
+    margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #b28090;
+    font-weight: 400;
+}
