@@ -1,11 +1,12 @@
 .pum-open-overlay .pum-overlay, .pum-theme-default-theme{
-    background-color: rgba( 0, 0, 0, .6 );
+    background-color: rgba(255,255,255,.6);
 }
 .pum-open-overlay .pum-container.pum-responsive.pum-responsive-medium{
     width: 400px;
     border: 4px solid #b28090;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: white;
 }
 .pum-open-overlay .pum-overlay .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close{
     height: auto;
@@ -15,6 +16,9 @@
     padding: 0 16px;
     margin-right: 0;
     background-color: #b28090;
+    top: 0;
+    right: 0;
+    color: white;
 }
 .pum-open-overlay .pum-overlay .pum-title, .pum-theme-default-theme .pum-title{
     text-align: center;
